@@ -67,7 +67,7 @@ return (
                 <Tab.Pane eventKey="second">Loren ipsum</Tab.Pane>
                 <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
             </Tab.Content>
-            <img className="background-image-right" src={colorSharp2} /> 
+            <img className="background-image-right" src={colorSharp2} alt="JAC" /> 
             </Tab.Container>
 
         </Col>
