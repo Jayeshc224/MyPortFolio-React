@@ -49,7 +49,7 @@ export const Banner = () => {
           {({isVisible }) =>
           <div className = {isVisible ? "animated__animated animate__fadeIn" : ""}>
           <span className="tagline">Jayesh Chindarkar</span>
-          <h1>{`Hi, I'm `}<span className= "wrap">{text}</span></h1>
+          <h2>{`Hi, I'm a `}<span className= "wrap">{text}</span></h2>
           <p>Graduate Student at Northeastern University. 4 years of work experience as a Java Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Java, SQL Databases, JavaScript, and the MERN stack </p>
           <button onClick={() => window.location.href = 'https://www.linkedin.com/in/jayeshchindarkar/'}>Let's Connect<ArrowRightCircle size={25}/></button>
           </div> }
