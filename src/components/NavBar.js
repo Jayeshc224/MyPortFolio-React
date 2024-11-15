@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/JacLogo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon2 from '../assets/img/nav-github.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
@@ -45,9 +45,9 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <a href=""><img src={navIcon1} alt="Hi" /></a>
                             <a href=""><img src={navIcon2} alt="HI" /></a>
-                            <a href=""><img src={navIcon3} alt="hI" /></a>
+                            {/* <a href=""><img src={navIcon3} alt="hI" /></a> */}
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        {/* <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button> */}
                     </span>
                 </Navbar.Collapse>
             </Container>

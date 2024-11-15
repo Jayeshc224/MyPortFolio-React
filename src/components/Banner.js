@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
    const [loopNum, setLoopNum]= useState(0);
    const [isDeleting, setIsDeleting]= useState(false);
-   const toRotate =["Web Developer", "Web Designer","UI/UX Designer"];
+   const toRotate =["Web Developer", "BackEnd Developer","UI/UX Designer"];
    const [text, setText] = useState('');
    const period = 2000;
    const [delta, setDelta] = useState(300 - Math.random() *100);
@@ -50,8 +50,8 @@ export const Banner = () => {
           <div className = {isVisible ? "animated__animated animate__fadeIn" : ""}>
           <span className="tagline">Jayesh Chindarkar</span>
           <h1>{`Hi, I'm `}<span className= "wrap">{text}</span></h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <button onClick={()=> console.log('connect')} >Let's Connect<ArrowRightCircle size={25}/></button>
+          <p>Graduate Student at Northeastern University. 4 years of work experience as a Java Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Java, SQL Databases, JavaScript, and the MERN stack </p>
+          <button onClick={() => window.location.href = 'https://www.linkedin.com/in/jayeshchindarkar/'}>Let's Connect<ArrowRightCircle size={25}/></button>
           </div> }
           </TrackVisibility>
           </Col>  

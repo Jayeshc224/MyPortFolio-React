@@ -34,7 +34,7 @@ return (
           {({isVisible }) =>
           <div className = {isVisible ? "animated__animated animate__bounce" : ""}>
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe</p>                   
+            <p>The projects featured here represent a broad range of skills across web design, backend development, and user experience design. Each project is crafted with a focus on both form and function, utilizing responsive layouts, intuitive UX, and efficient backend operations.</p>                   
             </div>}
         </TrackVisibility>
         <Tab.Container id="projects-tabs" defaultActiveKey ="first">

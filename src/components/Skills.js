@@ -41,7 +41,7 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe</p>
+                        <p>I’m a versatile web developer with a focus on crafting responsive, user-friendly websites. With strong skills in backend development, I ensure seamless data flow and server functionality to enhance user interactions. My background in UX design drives me to create intuitive, engaging, and accessible digital experiences that prioritize users’ needs. Together, my expertise in development and design helps me deliver polished, well-rounded web solutions.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image"/>
@@ -49,15 +49,11 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image"/>
-                                <h5>Brand Identity</h5>
+                                <h5>BackEnd Developer</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image"/>
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5>Web Development</h5>
+                                <h5>UI/UX Designer</h5>
                             </div>
                         </Carousel>
                     </div>
