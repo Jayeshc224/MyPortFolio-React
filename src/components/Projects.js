@@ -40,15 +40,13 @@ return (
         <Tab.Container id="projects-tabs" defaultActiveKey ="first">
         <Nav variant="pills"  className="nav-pills mb-5 justify-content-center align-items-center" id="pill-tabs">
             <Nav.Item>
-                <Nav.Link eventKey="first">Tab One</Nav.Link>
+                <Nav.Link eventKey="first">Web Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                <Nav.Link eventKey="second">UX Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="third" >
-                Tab Three
-                </Nav.Link>
+                <Nav.Link eventKey="third" >Java Projects</Nav.Link>
             </Nav.Item>
             </Nav>
             <Tab.Content>
@@ -64,8 +62,8 @@ return (
                         }
                     </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Loren ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second"></Tab.Pane>
+                <Tab.Pane eventKey="third"></Tab.Pane> 
             </Tab.Content>
             <img className="background-image-right" src={colorSharp2} alt="JAC" /> 
             </Tab.Container>
