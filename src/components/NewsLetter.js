@@ -1,11 +1,12 @@
-import { useState } from "react";
-import { Col, Row, Alert } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 export const Newsletter = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Opens the default email client
+  const handleGmail = () => {
     window.location.href = "mailto:chindarkar.j@northeastern.edu?subject=Newsletter%20Subscription&body=Hello";
+  };
+
+  const handleOutlook = () => {
+    window.location.href = "mailto:chindarkar.j@northeastern.edu?subject=Newsletter%20Subscription&body=Hello%20via%20Outlook";
   };
 
   return (
@@ -16,11 +17,10 @@ export const Newsletter = () => {
             <h3>Contact me</h3>
           </Col>
           <Col md={6} xl={7}>
-            <form onSubmit={handleSubmit}>
-              <div className="new-email-bx">
-                <button type="submit">Send Email</button>
-              </div>
-            </form>
+            <div className="new-email-bx">
+              <button onClick={handleGmail} style={{ marginRight: "10px" }}>Send Email (Gmail)</button>
+              <button onClick={handleOutlook}>Send Email (Outlook)</button>
+            </div>
           </Col>
         </Row>
       </div>
