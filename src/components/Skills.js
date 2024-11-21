@@ -39,7 +39,7 @@ export const Skills = () => {
                     <Col>
                     <div className="skill-bx">
                         <h2>
-                            Skills
+                            Roles
                         </h2>
                         <p>I’m a versatile web developer with a focus on crafting responsive, user-friendly websites. With strong skills in backend development, I ensure seamless data flow and server functionality to enhance user interactions. My background in UX design drives me to create intuitive, engaging, and accessible digital experiences that prioritize users’ needs. Together, my expertise in development and design helps me deliver polished, well-rounded web solutions.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
