@@ -2,16 +2,16 @@ import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from "react-on-screen"; 
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/moviebooking.png";
+import projImg2 from "../assets/img/kanban.png";
 import projImg3 from "../assets/img/project-img1.png";
 import "animate.css";
 
 export const Projects = () => {
     const projects1 = [
         {
-            title: "Movie Booking App with Suggestions",
-            description: "Designed and Developed the application for booking movies and suggest movies to users",
+            title: "Movie Booking App with AI Suggestion",
+            description: "Designed and developed an application for booking movies and suggesting personalized movie recommendations to users.",
             imgUrl: projImg1
         },
         {
