@@ -16,12 +16,12 @@ export const Projects = () => {
         },
         {
             title: "KanBan Board",
-            description: "A application to manage daily tasks and map the progress of each task",
+            description: "An application to manage daily tasks and track the progress of each task.",
             imgUrl: projImg2
         },
         {
             title: "Event Management App",
-            description: "Application designed to manage and host events to people",
+            description: "An application designed to manage and host events for users.",
             imgUrl: projImg3
         }
     ]
