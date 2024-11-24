@@ -28,17 +28,17 @@ export const Projects = () => {
     const projects2 = [
         {
             title: "Reddit Application",
-            description: "Developed the wirefram application for Reddit Application",
+            description: "Developed the wireframe application for Reddit Application",
             imgUrl: projImg1
         },
         {
             title: "Child Adoption App",
-            description: "A application to understand the working of child adoption website ",
+            description: "A wireframe to understand the working of child adoption website ",
             imgUrl: projImg2
         },
         {
             title: "Target Website",
-            description: "The shopping giant Target understood and redeigned.",
+            description: "The shopping giant Target understood and redesigned in moqups.",
             imgUrl: projImg2
         }
        
