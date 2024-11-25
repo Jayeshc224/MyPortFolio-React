@@ -53,7 +53,7 @@ return (
           <div className = {isVisible ? "animated__animated animate__bounce" : ""}>
             <h2>Projects</h2>
             <p>I’m a passionate web developer and UX enthusiast dedicated to creating seamless, engaging, and accessible digital experiences. With expertise in building responsive websites and optimizing backend systems, I ensure both functionality and user satisfaction. My approach combines technical precision with a deep understanding of user behavior to deliver intuitive and impactful web solutions.
-                Here are some of my projects done during my school</p>                   
+              Below are some of the projects I completed during my academic journey:</p>                   
             </div>}
         </TrackVisibility>
         <Tab.Container id="projects-tabs" defaultActiveKey ="first">
